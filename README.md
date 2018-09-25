@@ -1,2 +1,4 @@
 # new-project
-echo "this is our first git project"
+"this is our first git project"
+megha
+
