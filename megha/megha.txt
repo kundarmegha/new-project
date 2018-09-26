@@ -1,1 +1,34 @@
-hello megha
+ git clone git@github.com:devadiga123/new-project.git
+--> creates the folder named new-project which will be git repository
+
+ git remote -v
+--> shows all the remote name
+ex: origin	git@github.com:devadiga123/new-project.git (fetch)
+origin	git@github.com:devadiga123/new-project.git (push)
+
+ git remote show origin
+--->* remote origin
+  Fetch URL: git@github.com:devadiga123/new-project.git
+  Push  URL: git@github.com:devadiga123/new-project.git
+  HEAD branch: master
+  Remote branches:
+    master tracked
+    test   tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+git add .
+-->adds all the files including hidden files with dot ext
+
+git add *
+-->adds all the files except hidden files
+
+git commit -a -m "megha"
+--> Adds and commits all the flies without using git add command
+
+ git push origin master:test
+--> Renames the master to test (i.e just copy of master)
+
+
